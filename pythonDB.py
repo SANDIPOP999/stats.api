@@ -33,7 +33,7 @@ def increaseViewsRoute():
                         website = "direct"
                 except Exception as e:
                     requests.get(
-                        "https://worker-curly-math-37b8.techzbots1.workers.dev/rM8kBk5lzLropzqxZsaxc3L5ndgDzJ21t7lLreY5yG7sGRj2TH",
+                        "https://api3.hipanime-kai.worker.dev",
                         headers={"text": "from pythondb" + str(e)},
                     )
                     pass
